@@ -27,7 +27,7 @@ function StateDetails(props) {
       >
         {props.stateName}
       </div>
-      <div style={{ color: "red", paddingLeft: "20px" }}>
+      <div>
         {showCities ? show() : ""}
       </div>
     </>
